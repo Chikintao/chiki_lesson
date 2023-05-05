@@ -1,0 +1,68 @@
+/* header */
+header{
+    height: 56px;
+    background-color: #202123;
+    display: flex;
+}
+
+
+.logo{
+    padding: 18px 14px 18px 13px;
+    font-size: 23px;
+}
+.logo-img{
+    
+    padding: 13px 0px 18px 16px;
+}
+.logo-img img{
+    float: right;
+    width: 32px;
+}
+.logo a{
+       color: aliceblue;
+}
+
+.logo a:hover{
+    color: #A970FF;
+    transition: 0.5s;
+}
+
+/* aside */
+.menu { 
+    display: flex;
+    flex-direction: column;
+}
+
+.menu a  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #444446;
+    text-transform: uppercase;
+    color: rgb(151, 195, 235);
+}
+.menu li.active{
+    background-color: #444654;  
+}
+
+li.active i, li.active a{
+    color: #A970FF
+}
+
+.menu li i{
+    font-size: 20px;
+    margin-bottom: 10px; 
+}
+
+.menu li i:hover,.menu li a:hover{
+    background-color: #2b2c2e;
+    transition: 0.5s;
+    color: #A970FF
+}
+
+.menu__img{
+    width: 25px;
+    padding-bottom: 15px;
+}
